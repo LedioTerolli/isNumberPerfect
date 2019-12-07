@@ -1,12 +1,10 @@
 ## Find if number is perfect
 
-Compile:
-* `g++ -o isPerfect isPerfect.cpp -lpthread`
+Compile: `g++ -o isPerfect isPerfect.cpp -lpthread`
 
-Run:
-* `./isPerfect <N> <P>`
+Run: `./isPerfect <N> <P>`
 
-Return:
+Returns:
 * 0 if number is perfect
 * 1 if number is not perfect
 * 2 if error occurred
@@ -49,14 +47,11 @@ terolli@debian:~/Desktop$ echo $?
 
 The experiments were performed on an Intel Core i7-6700HQ CPU @ 2.60GHz (L2 cache: 1MB).
 
-#### Figure 1 table:
-(stride = 8B)
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/completion%20time.jpg)
+#### Figure 1:
 
-![alt text](https://github.com/cunychenhclass/cisc3320proj2-shell8/blob/master/Ledio%20Terolli/figure%201.jpg "Figure 1")
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/graph%201.png)
+#### Figure 2:
 
-#### Figure 2 table:
-
-![alt text](https://github.com/cunychenhclass/cisc3320proj2-shell8/blob/master/Ledio%20Terolli/figure%202.jpg "Figure 2")
-
-##### REFERENCES
-###### [1]	Chuanpeng Li, Chen Ding, and Kai Shen. Quantifying the cost of context switch. In Proceedings of the 2007 Workshop on Experimental Computer Science, ExpCS ’07, New York, NY, USA, 2007. ACM
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/graph%202.png)
+#### Figure 3:
