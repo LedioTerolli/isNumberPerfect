@@ -74,7 +74,7 @@ int main(int argc, char* argv[]) {
 	unsigned int interval = number / n_threads;
 
 	for (unsigned int i = 0; i < n_threads; ++i) {
-		// determine the interavals
+		// determine intervals
 		begin = interval * i + 1;
 		if (i == n_threads - 1) endv = number - 1;
 		else endv = interval * (i + 1);
