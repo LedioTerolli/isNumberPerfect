@@ -90,7 +90,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	// sort factors list before print
-	sort(factors_v.begin(), factors_v.end(), greater<>());
+	sort(factors_v.begin(), factors_v.end(), greater<unsigned int>());
 
 	// print factors list, sum and N
 	for (auto i = factors_v.begin(); i != factors_v.end(); ++i) {
