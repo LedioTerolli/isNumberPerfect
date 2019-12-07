@@ -48,8 +48,8 @@ terolli@debian:~/Desktop$ echo $?
 ##
 
 ##### The experiments were performed on an Intel Core i7-6700HQ CPU @ 2.60GHz (L2 cache: 1MB). In the table below I compare the completion times of serial and multithreaded programs. For N > 1000000, 8 threads produce the greatest speed-up gain.
-![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/completion%20time.jpg)
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/misc/completion%20time.jpg)
 ##
 ##### Completion time in microseconds (serial vs 8 threads)
-![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/graph%201.png)
-![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/graph%202.png)
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/misc/graph%201.png)
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/misc/graph%202.png)
