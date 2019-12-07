@@ -2,25 +2,12 @@ language: c++
 
 script:
  - g++ -std=c++11 -o isPerfect isPerfect.cpp -lpthread
- - ./isPerfect 39 2
- - echo $?
- - ./isPerfect 4294967295 100
- - echo $?
  - ./isPerfect 6 2
- - echo $?
  - ./isPerfect 28 2
- - echo $?
  - ./isPerfect 496 5
- - echo $?
  - ./isPerfect 8128 1
- - echo $?
  - ./isPerfect 8128 3
- - echo $?
  - ./isPerfect 8128 5
- - echo $?
  - ./isPerfect 33550336 1
- - echo $?
  - ./isPerfect 33550336 5
- - echo $?
  - ./isPerfect 33550336 10
- - echo $?
