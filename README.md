@@ -45,13 +45,13 @@ terolli@debian:~/Desktop$ echo $?
 
 ##
 
-The experiments were performed on an Intel Core i7-6700HQ CPU @ 2.60GHz (L2 cache: 1MB).
+The experiments were performed on an Intel Core i7-6700HQ CPU @ 2.60GHz (L2 cache: 1MB)
 
-![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/completion%20time.jpg)
 #### Figure 1:
-
-![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/graph%201.png)
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/completion%20time.jpg)
+##
 #### Figure 2:
-
-![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/graph%202.png)
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/graph%201.png)
+##
 #### Figure 3:
+![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/graph%202.png)
