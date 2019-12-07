@@ -1,6 +1,6 @@
 ## Find if number is perfect
 
-Compile: `g++ -o isPerfect isPerfect.cpp -lpthread`
+Compile: `g++ -o isPerfect isPerfect.cpp -lpthread` 
 Run: `./isPerfect <N> <P>` where 2 <= N <= 4294967295 and P >= 1
 Returns:
 * `0` if number is perfect
