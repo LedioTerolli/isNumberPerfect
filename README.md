@@ -4,7 +4,7 @@ In number theory, a perfect number is a positive integer that is equal to the su
 
 Compile: `g++ -o isPerfect isPerfect.cpp -lpthread`
 
-Run: `./isPerfect <N> <P>` where 2 <= N <= 4294967295 and P >= 1
+Run: `./isPerfect <N> <P>` where 2 <= N(number) <= 4294967295 and P(threads) >= 1
 
 Returns:
 * `0` if number is perfect
