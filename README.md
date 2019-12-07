@@ -1,13 +1,11 @@
 ## Find if number is perfect
 
 Compile: `g++ -o isPerfect isPerfect.cpp -lpthread`
-
-Run: `./isPerfect <N> <P>`
-
+Run: `./isPerfect <N> <P>` where 2 <= N <= 4294967295 and P >= 1
 Returns:
-* 0 if number is perfect
-* 1 if number is not perfect
-* 2 if error occurred
+* `0` if number is perfect
+* `1` if number is not perfect
+* `2` if error occurred
 
 #### e.g.:
 ````
