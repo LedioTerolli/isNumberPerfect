@@ -66,7 +66,7 @@ int main(int argc, char* argv[]) {
 
 	if (number < n_threads) {
 		cout << "Usage: ./isPerfect <N> <P>" << endl;
-		cout << "where N > P" << endl;
+		cout << "where N >= P" << endl;
 		return 2;
 	}
 
