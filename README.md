@@ -47,9 +47,7 @@ terolli@debian:~/Desktop$ echo $?
 
 ##
 
-The experiments were performed on an Intel Core i7-6700HQ CPU @ 2.60GHz (L2 cache: 1MB)
-
-##### Demonstrating the speed-up gain (serial vs multithreading ). For N > 1000000, 8 threads produce the greatest speed-up gain.
+##### The experiments were performed on an Intel Core i7-6700HQ CPU @ 2.60GHz (L2 cache: 1MB). In the table below I demonstrate the speed-up gain of a multithreaded program when compared to a serial program). For N > 1000000, 8 threads produce the greatest speed-up gain.
 ![alt text](https://github.com/LedioTerolli/isNumberPerfect/blob/master/completion%20time.jpg)
 ##
 ##### Completion time in microseconds (serial vs 8 threads)
