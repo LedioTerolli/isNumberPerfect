@@ -1,0 +1,24 @@
+language: c++
+
+script:
+ - g++ -o isPerfect isPerfect.cpp -lpthread
+ - ./isPerfect 8128 1
+ - echo $?
+ - ./isPerfect 8128 2
+ - echo $?
+ - ./isPerfect 8128 3
+ - echo $?
+ - ./isPerfect 8128 4
+ - echo $?
+ - ./isPerfect 8128 5
+ - echo $?
+ - ./isPerfect 8128 6
+ - echo $?
+ - ./isPerfect 8128 7
+ - echo $?
+ - ./isPerfect 8128 8
+ - echo $?
+ - ./isPerfect 8128 9
+ - echo $?
+ - ./isPerfect 8128 10
+ - echo $?
