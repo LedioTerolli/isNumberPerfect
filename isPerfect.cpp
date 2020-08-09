@@ -1,7 +1,7 @@
 /*
 ================================================================================
 
-purpose: find if perfect
+purpose: checks if number is perfect
 how to compile: g++ -o isPerfect isPerfect.cpp -lpthread
 how to run: ./isPerfect <N> <P>
 return: 0 if number is perfect, 1 if number is not perfect, 2 if error occurred
